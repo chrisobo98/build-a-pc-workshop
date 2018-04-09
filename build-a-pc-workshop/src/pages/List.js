@@ -1,15 +1,13 @@
 import React from 'react';
 import Col from "../components/Col";
 import Row from "../components/Row";
-import ProductList from "../components/ProductList";
-import Product from "../components/Product";
-import Compare from "../components/Compare";
 import Container from "../components/Container";
 import { Table, Button, ButtonGroup } from 'reactstrap';
 
 
 export default class Example extends React.Component {
   render() {
+    
     return (
       <div>
       <Container>
@@ -73,9 +71,7 @@ export default class Example extends React.Component {
           </tr>
         </tbody>
       </Table>
-      <ProductList/>
-      <Product/>
-      <Compare/>
+  
       </Container>
       </div>
 
